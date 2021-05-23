@@ -12,11 +12,11 @@
   <% end %>
 
   <div class="field">
-    <%= form.label :tweet %>
-    <%= form.text_area :tweet %>
-  </div>
-
-  <div class="actions">
-    <%= form.submit %>
+    
+    <%= form.text_area :tweet ,class:"form-control mb-2",placeholder:"Express Your Views..........." %>
+    
+    <%= form.submit class:"btn btn-info"%> <span class=" text-center"><%= link_to 'Back', tweets_path,class:"btn btn-secondary" %></span>
   </div>
 <% end %>
+
+

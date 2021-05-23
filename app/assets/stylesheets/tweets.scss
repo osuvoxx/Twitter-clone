@@ -1,3 +1,89 @@
 // Place all the styles related to the Tweets controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+.sidenav {
+    height: 100%;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color:rgb(255, 255, 255);
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  .rt-border{
+    border-right: 1px solid rgb(148, 147, 147);
+    
+  }
+  .cl1{
+      max-width: 20%;
+  }
+  .cl2{
+      max-width: 60%;
+  }
+  
+  .sidenav a {
+    margin-left: 40px;
+    margin-right: 30px;
+
+    padding: 11px 6px 11px 20px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+  }
+  
+  .sidenav a:hover:not(:first-child) {
+    background-color: rgb(183, 223, 240);
+    color: rgb(0,172,238);
+    border-radius: 25px;
+    transition: 0.3s;
+  }
+  
+
+.btn-border{
+    border-radius:25px;
+}
+.navbar-brand .title{
+    color:white;
+}
+
+.image {
+    height:64px;
+    width:64px;
+    border-radius: 50%;
+    }
+
+.btn-radius{
+    border-radius: 10px;
+}
+
+.none{
+    text-decoration: none;
+}
+
+.icon{
+    font-size: 25px;
+    color: rgb(0,172,238);
+}
+
+.twitter{
+    color: rgb(0,172,238);
+    font-size: 55px;
+}
+.btn-blue{
+    background-color: rgb(0,172,238);
+}
+.tweet{
+    height: 100%;
+    width:100%; 
+}
+
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+    transform: translate(-50%, -50%);
+  }
